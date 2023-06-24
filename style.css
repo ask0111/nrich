@@ -1,0 +1,159 @@
+h2 {
+    text-align: center;
+}
+  
+  .content {
+    margin-top: 30px;
+    padding: 10px;
+    background-color: #ccc;
+  }
+  
+.container {
+    position: relative;
+    width: 100%;
+}
+
+.popop{
+    background-color: #f1f1f1;
+    position: absolute;
+    width: auto;
+    left: 43.3%;
+    top: -200px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 20px;
+    z-index: 20;
+    transition: top .3s;
+}
+.popop p{
+    padding: 10px 20px;
+    font-weight: 700;
+}
+
+
+.register-form,
+.register-form1 {
+    position: relative;
+    width: 100%;
+    min-height: 50vh;
+    display: flex;
+    align-items: center;
+}
+
+.register-form1 {
+    width: 500px;
+    position: absolute;
+    background-color: rgba(19, 15, 15, 0.863);
+    background-color: #fff;
+    bottom: 10vh;
+    margin: auto;
+    z-index: 2;
+}
+
+.register-form>form,
+.register-form1>form {
+    max-width: 400px;
+    min-width: 280px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-size: larger;
+}
+
+.register-form form div,
+.register-form1 form div {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+}
+
+label {
+    margin-left: 2px;
+}
+
+input,
+textarea {
+    font-size: large;
+    padding: 4px;
+    
+}
+
+.submitbtn{
+    margin-top: 10px; 
+    padding: 5px;
+    background-color: #0080ff;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+}
+.register-form1 {
+    display: none;
+}
+
+#id {
+    display: none;
+}
+
+.userdataintable{
+
+    width: 60%;
+    margin: 50px auto;
+}
+
+#table{
+    width: 100%;
+    gap: 5px;
+}
+
+#table tr{
+   
+}
+#table th{
+ background-color: #0080ff;
+ color: #fff;
+ padding: 10px;
+ font-weight: bolder;
+ font-size: 20px;
+}
+
+table, th, td {
+    padding: 10px;
+    border: 1px solid rgb(75, 73, 73);
+    border-collapse: collapse;
+}
+
+
+.userdataintable td{
+    margin: auto;
+    
+}
+.userdataintable button{
+    padding: 5px;
+    font-size: large;
+  }
+
+  button {
+    cursor: pointer;
+  }
+
+  .register-form1 {
+    border-radius: 10px;
+    width: 300px;
+    padding: 20px;
+    top: 20px;
+    height: auto;
+    left: 40%;
+  }
+
+  #cross{
+    position: absolute;
+    cursor: pointer;
+    right: 0px;
+    top: 0px;
+    background-color: #ffffff;
+    border-radius: 100%;
+    padding: 5px;
+    box-shadow: rgba(117, 116, 116, 0.925) 0px 4px 12px;
+  }
+

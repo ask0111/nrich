@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body >
+    
+    
+    <div class="container">
+        <div class="popop">
+            <p id="popop-text">Data Added Successfully!</p>
+        </div>
+        <div onclick="crossfun()" class="register-form">
+            <form onsubmit="addUser(event)">
+                <h2>Registration Form</h2>
+                <div>
+                    <label>Name</label>
+                    <input id="name" type="text" placeholder="Enter Your Name" />
+                </div>
+                <div>
+                    <label>Email</label>
+                    <input id="email" type="email" placeholder="Enter Your Email" />
+                </div>
+                <div>
+                    <label>message</label>
+                    <textarea id="message" rows="5" cols="30" type="text" placeholder="message"></textarea>
+                </div>
+                <input class="submitbtn"  type="submit" />
+            </form>
+        </div>
+
+        <div class="register-form1">
+            <div onclick="crossfun()" id="cross">&#10060;</div>
+            <form onsubmit="updatedUser(event)">
+                <h2>Update Form</h2>
+                <div>
+                    <p id="id"></p>
+                </div>
+                <div>
+                    <label>Name</label>
+                    <input id="name1" type="text" placeholder="Enter Your Name" />
+                </div>
+                <div>
+                    <label>Email</label>
+                    <input id="email1" type="email" placeholder="Enter Your Email" />
+                </div>
+                <div>
+                    <label>message</label>
+                    <textarea id="message1" rows="5" cols="30" type="text" placeholder="message"></textarea>
+                </div>
+                <input class="submitbtn" type="submit" />
+            </form>
+        </div>
+
+        <div class="userdataintable">
+            <table id="table">
+
+            </table>
+        </div>
+    
+    </div>
+
+
+    <script src="https://www.gstatic.com/firebasejs/8.4.2/firebase.js"></script>
+    <script src="./index.js"></script>
+</body>
+
+</html>
