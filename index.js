@@ -51,7 +51,15 @@ function addUser(event){
       document.getElementById("name").style.border = 'none';
       document.getElementById("message").style.border = '2px solid red';
       document.getElementById("message").focus();
+      document.getElementById("email").style.border = 'none';
+      document.getElementById("name").style.border = 'none';
+      document.getElementById("message").style.border = '2px solid red';
+      document.getElementById("message").focus();
       return ;
+    }else{
+      document.getElementById("email").style.border = 'none';
+      document.getElementById("name").style.border = 'none';
+      document.getElementById("message").style.border = 'none';
     }
     insertUser(name, email, message);
 
