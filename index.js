@@ -37,29 +37,29 @@ function addUser(event){
     var message = document.getElementById("message").value;
     if(!name ){
       document.getElementById("name").focus();
-      document.getElementById("name").style.border = '2px solid red';
+      // document.getElementById("name").style.border = '2px solid red';
       return ;
     }
     if(!email){
-      document.getElementById("email").style.border = '2px solid red';
-      document.getElementById("name").style.border = 'none';
+      // document.getElementById("email").style.border = '2px solid red';
+      // document.getElementById("name").style.border = 'none';
       document.getElementById("email").focus();
       return ;
     }
     if(!message){
-      document.getElementById("email").style.border = 'none';
-      document.getElementById("name").style.border = 'none';
-      document.getElementById("message").style.border = '2px solid red';
-      document.getElementById("message").focus();
-      document.getElementById("email").style.border = 'none';
-      document.getElementById("name").style.border = 'none';
-      document.getElementById("message").style.border = '2px solid red';
+      // document.getElementById("email").style.border = 'none';
+      // document.getElementById("name").style.border = 'none';
+      // document.getElementById("message").style.border = '2px solid red';
+      // document.getElementById("message").focus();
+      // document.getElementById("email").style.border = 'none';
+      // document.getElementById("name").style.border = 'none';
+      // document.getElementById("message").style.border = '2px solid red';
       document.getElementById("message").focus();
       return ;
     }else{
-      document.getElementById("email").style.border = 'none';
-      document.getElementById("name").style.border = 'none';
-      document.getElementById("message").style.border = 'none';
+      // document.getElementById("email").style.border = 'none';
+      // document.getElementById("name").style.border = 'none';
+      // document.getElementById("message").style.border = 'none';
     }
     insertUser(name, email, message);
 
